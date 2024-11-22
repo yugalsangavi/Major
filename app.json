@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AuthOTP",
+    "slug": "AuthOTP",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yugal_sangavi.AuthOTP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33df1de1-7198-4c2c-9fe5-7e471117a564"
+      }
+    }
+  }
+}
